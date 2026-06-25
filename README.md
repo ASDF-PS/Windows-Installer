@@ -130,7 +130,7 @@ Every run also writes a CSV log of the plan/results next to the script:
 
 A dry run reports the match plan; `-Execute` adds the per-file restore results:
 
-![Restore-MsiCache output](docs/restore-msi-cache.png)
+<img width="1749" height="701" alt="restore-msi-cache" src="https://github.com/user-attachments/assets/032e6b4c-6240-4e3a-935a-3bbfa4801ad7" />
 
 In the run above, 116 products were missing on the broken server. Most
 (`TargetAlreadyRestored`) were already staged from a prior pass; 9 had no donor
