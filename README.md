@@ -130,6 +130,8 @@ Every run also writes a CSV log of the plan/results next to the script:
 
 A dry run reports the match plan; `-Execute` adds the per-file restore results:
 
+.\Restore-MsiCache.ps1 -MissingCsv "C:\_PKG\MSICache\MsiCacheAudit_LSSCCM_20260622-111402.csv" -SourcePath C:\_PKG\MSICache -DestinationPath C:\_PKG\MSIStaging -Execute
+
 <img width="1749" height="701" alt="restore-msi-cache" src="https://github.com/user-attachments/assets/032e6b4c-6240-4e3a-935a-3bbfa4801ad7" />
 
 In the run above, 116 products were missing on the broken server. Most
